@@ -20,3 +20,22 @@ the build() method takes two parameters: a starting index and an ending index. W
 `build(100000,200000)`
 
 For reference, parsing through 100,000 entries takes anywhere from 8 to 10 hours. I'm sure it could be faster, but that'll have to wait until I'm a better programmer! 
+
+## Seed Datasets
+
+This program needs a couple of datasets to get started. I know right: "making ONE large dataset using nothing but a few lines of code and TWO large datasets!"
+You'll need to save the datasets into the "datasets" folder in the builder folder as so
+
+### LastFM dataset:
+https://www.kaggle.com/pieca111/music-artists-popularity/download
+
+Save to:
+`./datasets/lfm_kaggle/artist.csv`
+
+### MusicBrainz
+https://musicbrainz.org/doc/MusicBrainz_Database/Download
+
+Save the "artists.csv" file contained in the large database to:
+`./datasets/mb/artist`
+NOTE: This is not explicitly a CSV document (it's actually tab-separated so a TSV if ever there was a such thing. We'll treat is as a CSV and switch the delimiters from commas to tabs in the code)
+
