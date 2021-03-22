@@ -37,5 +37,6 @@ https://musicbrainz.org/doc/MusicBrainz_Database/Download
 
 Save the "artists.csv" file contained in the large database to:
 `./datasets/mb/artist`
+
 NOTE: This is not explicitly a CSV document (it's actually tab-separated so a TSV if ever there was a such thing. We'll treat is as a CSV and switch the delimiters from commas to tabs in the code)
 
